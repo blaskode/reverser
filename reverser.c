@@ -38,7 +38,6 @@ int main(int argc, char** argv){
 		push(head, argv[1][i]);
 	}
 
-	print_list(head);
 	link temp = pop(&head);
 	while (temp != NULL){
 		printf("%c", temp->element);
