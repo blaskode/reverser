@@ -1,2 +1,2 @@
 # reverser
-C Program that reverses command-line input.
+C Program that reverses command-line input. It employs a linked list to implement a push-down stack.
