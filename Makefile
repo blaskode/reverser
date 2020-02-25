@@ -6,7 +6,7 @@ make:
 	gcc reverser.c $(cflags) -o $(target)
 
 debug:
-	gcc reverser.c $(dflags) -o $(target)
+	gcc -g reverser.c $(dflags) -o $(target)
 
 clean:
 	rm $(target)
